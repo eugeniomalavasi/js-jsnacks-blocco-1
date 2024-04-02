@@ -1,11 +1,7 @@
-const numbSum = [];
-for (let i = 0; i < 3; i++) {
-    let userNumb = parseInt(prompt(`inserisci un un numero ancora ${3 - i} volte`));
-    numbSum.push(userNumb);
-    console.log(numbSum);
-}
+let total = 0;
 
-for (let j = 0; j < numbSum.lenght; j++) {
-    let sum = numbSum[i];
-    console.log(sum);
+for (let i = 0; i < 10; i++) {
+    const userNumb = parseInt(prompt(`inserisci un un numero ancora ${10 - i} volte`));
+    total = userNumb + total;
 }
+console.log(total);
