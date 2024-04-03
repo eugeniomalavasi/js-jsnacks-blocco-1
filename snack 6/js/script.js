@@ -1,4 +1,6 @@
 const userNumb = parseInt(prompt("inserisci un numero"));
 
-numbMult = userNumb * userNumb * userNumb;
-alert(numbMult);
+for (i = 0; i <= userNumb; i++) {
+    const numbCube = i * i * i;
+    console.log(i, numbCube);
+}
