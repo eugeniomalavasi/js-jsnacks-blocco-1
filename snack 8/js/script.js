@@ -1,12 +1,14 @@
-const userInput = parseInt(prompt("inserisci un numero da 1111 a 9999"));
-console.log(userInput);
+const userInput = prompt("inserisci un numero da 1111 a 9999");
+console.log(userInput.length);
 
-if (userInput < 1111 || userInput > 9999) {
-    alert("numero inserito incorretto")
-} else {
-    for (i = 0; i < userInput.lenght; i++) {
-        const numb = userInput[i]; 
-        console.log(numb);
+
+console.log(typeof userInput);
+let sum = 0;
+for (i = 0; i < userInput.length; i++) {
+    
+    console.log(typeof userInput);
+    sum = sum + parseInt(userInput[i]);
 }
-}
+console.log(sum, typeof sum);
+
 
