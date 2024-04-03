@@ -1,6 +1,5 @@
 const oddElments = [];
-for (i = 0; i < 69
-    ; i++) {
+for (i = 0; i < 6; i++) {
     userNumber = parseInt(prompt("inserisci un numero"))
     if (userNumber % 2 !== 0) {
         oddElments.push(userNumber);
